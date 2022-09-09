@@ -7,6 +7,14 @@ export default function Navbar() {
             <div>
                 <img src={Logo} alt="Logo" style= {{width: '83px'}} />
             </div>
+            <div>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                </ul>
+            </div>
         </div>
     );
 }
