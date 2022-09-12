@@ -14,7 +14,7 @@ const Skills = () => {
     return (
         <div
             name="skills"
-            className="w-full h-screen bg-[#21343d] text-gray-300"
+            className="w-full h-screen bg-[#537f6f] text-gray-300"
         >
             {/* Container */}
             <div className="max-w-[1000px] mx-auto p-4 py- flex flex-col justify-center w-full h-full">
@@ -23,7 +23,7 @@ const Skills = () => {
                         Skills
                     </p>
                     <p className="py-4">
-                         These are the technologies I've worked with
+                        These are the technologies I've worked with
                     </p>
                 </div>
 

@@ -1,18 +1,18 @@
 import React, { useState } from "react";
-import Logo from "../assets/logo1.png";
+import Logo from "../assets/logo6.png";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-scroll";
 export default function Navbar() {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav);
     return (
-        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-palette-1 text-gray-300 shadow-bs hover:bsh ">
+        <div className="fixed w-full h-[80px] flex justify-between items-center px-4  text-gray-300 shadow-bs hover:bsh ">
             <div>
                 <img
                     className=" hover:bsh "
                     src={Logo}
                     alt="Logo"
-                    style={{ width: "9rem" }}
+                    style={{ width: "6rem" }}
                 />
             </div>
             {/* menue */}
