@@ -2,18 +2,18 @@ import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 const Home = () => {
     return (
-        <div name="Home" className="w-full h-screen bg-[#0a192f]">
+        <div name="home" className="w-full h-screen bg-palette-4">
             {/* container */}
-            <div className="mx-w[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-                <p className=" text-lg text-palette-2">Hi, my name is</p>
-                <h1 className=" text-palette-6 text-4xl sm:text-7xl ">
+            <div className="mx-w[1000px] mx-auto px-20 flex flex-col justify-center h-full">
+                <p className=" text-xl text-gray-800">Hi, my name is</p>
+                <h1 className=" text-palette-6 text-2xl sm:text-5xl ">
                     {" "}
                     Sali Taymourkhan
                 </h1>
-                <h2 className="text-4xl sm:text-7xl text-palette-6 ">
+                <h2 className="text-4xl sm:text-6xl text-palette-6 ">
                     Im Full Stack Developer
                 </h2>
-                <p className="  text-lg text-palette-6 py-4 max-w-[700px] ">
+                <p className="  text-xl text-palette-6 py-4 max-w-[700px] ">
                     i'm focused on building responsive full-stack web
                     applications.
                 </p>

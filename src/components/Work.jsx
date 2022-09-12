@@ -10,7 +10,7 @@ const Work = () => {
     return (
         <div
             name="work"
-            className="w-full md:h-screen text-gray-300 bg-[#0a192f]"
+            className="w-full md:h-screen text-gray bg-palette-4"
         >
             <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
                 <div className="pb-8">
@@ -125,7 +125,9 @@ const Work = () => {
                         {/* Hover Effects */}
                         <div className="opacity-0 group-hover:opacity-100">
                             <span className="text-2xl font-bold text-white tracking-wider">
-                                Mongo & Express & React & NOde
+                                Mongo & Express & React & NOde  (in progress)
+                           
+                              
                             </span>
                             <div className="pt-8 text-center">
                                 <a href="/">
@@ -148,7 +150,7 @@ const Work = () => {
                         {/* Hover Effects */}
                         <div className="opacity-0 group-hover:opacity-100">
                             <span className="text-2xl font-bold text-white tracking-wider">
-                                React JS Application
+                                React JS Application (in progress)
                             </span>
                             <div className="pt-8 text-center">
                                 <a href="/">
