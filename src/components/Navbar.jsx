@@ -1,12 +1,10 @@
 import React, { useState } from "react";
 import Logo from "../assets/logo1.png";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
-import { HiOutlineMail } from "react-icons/hi";
 import { Link } from "react-scroll";
 export default function Navbar() {
     const [nav, setNav] = useState(false);
-    const handelClick = () => setNav(!nav);
+    const handleClick = () => setNav(!nav);
     return (
         <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-palette-1 text-gray-300 shadow-bs hover:bsh ">
             <div>
@@ -39,15 +37,10 @@ export default function Navbar() {
                         Work
                     </Link>
                 </li>
-                <li>
-                    <Link to="contact" smooth={true} duration={500}>
-                        Contact
-                    </Link>
-                </li>
             </ul>
 
             {/* Hamburger */}
-            <div onClick={handelClick} className="md:hidden z-10">
+            <div onClick={handleClick} className="md:hidden z-10">
                 {!nav ? <FaBars /> : <FaTimes />}
             </div>
             {/* mobile menue */}
@@ -58,11 +51,49 @@ export default function Navbar() {
                         : "absolute top-0 left0 w-full h-screen bg-palette-1 flex flex-col justify-center"
                 }
             >
-                <li className="py-6 text-4xl">Home</li>
-                <li className="py-6 text-4xl">About</li>
-                <li className="py-6 text-4xl">Skills</li>
-                <li className="py-6 text-4xl">Work</li>
-                <li className="py-6 text-4xl">Contact</li>
+                <li className="py-6 text-4xl">
+                    <Link
+                        onClick={handleClick}
+                        to="home"
+                        smooth={true}
+                        duration={500}
+                    >
+                        Home
+                    </Link>
+                </li>
+                <li className="py-6 text-4xl">
+                    {" "}
+                    <Link
+                        onClick={handleClick}
+                        to="about"
+                        smooth={true}
+                        duration={500}
+                    >
+                        About
+                    </Link>
+                </li>
+                <li className="py-6 text-4xl">
+                    {" "}
+                    <Link
+                        onClick={handleClick}
+                        to="skills"
+                        smooth={true}
+                        duration={500}
+                    >
+                        Skills
+                    </Link>
+                </li>
+                <li className="py-6 text-4xl">
+                    {" "}
+                    <Link
+                        onClick={handleClick}
+                        to="work"
+                        smooth={true}
+                        duration={500}
+                    >
+                        Work
+                    </Link>
+                </li>
             </ul>
             {/* social icons */}
             <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
@@ -70,7 +101,7 @@ export default function Navbar() {
                     <li className="w-[162px] h-[60px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 rounded-xl">
                         <a
                             className=" flex justify-between items-center w-full  text-gray-300 "
-                            href="/"
+                            href="https://www.linkedin.com/in/sali-taymour/"
                         >
                             Linkedin <FaLinkedin size={30} />
                         </a>
@@ -78,25 +109,9 @@ export default function Navbar() {
                     <li className="w-[162px] h-[60px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-900 rounded-xl ">
                         <a
                             className="flex justify-between items-center w-full  text-gray-300 "
-                            href="/"
+                            href="https://github.com/sali-taymour"
                         >
                             Github <FaGithub size={30} />
-                        </a>
-                    </li>
-                    <li className="w-[162px] h-[60px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 bg-palette-9  rounded-xl">
-                        <a
-                            className="flex justify-between items-center w-full  text-gray-300 "
-                            href="/"
-                        >
-                            Email <HiOutlineMail size={30} />
-                        </a>
-                    </li>
-                    <li className="w-[162px] h-[60px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 bg-palette-5  rounded-xl">
-                        <a
-                            className="flex justify-between items-center w-full  text-gray-300 "
-                            href="/"
-                        >
-                            Resume <BsFillPersonLinesFill size={30} />
                         </a>
                     </li>
                 </ul>
