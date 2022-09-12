@@ -8,7 +8,10 @@ import Cr from "../assets/CR-shop.png";
 
 const Work = () => {
     return (
-        <div name="work" className="w-full md:h-screen text-gray bg-[#ffeba1a2]">
+        <div
+            name="work"
+            className="w-full md:h-screen text-gray bg-[#ffeba1a2]"
+        >
             <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
                 <div className="pb-8">
                     <p className="text-4xl font-bold inline border-b-4 text-gray-700 border-palette-9">
@@ -30,7 +33,7 @@ const Work = () => {
                                 HTML & CSS
                             </span>
                             <div className="pt-8 text-center">
-                                <a href="/">
+                                <a href="https://art-and-design.netlify.app">
                                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                                         Demo
                                     </button>
@@ -53,12 +56,12 @@ const Work = () => {
                                 JS & HTML & CSS
                             </span>
                             <div className="pt-8 text-center">
-                                <a href="/">
+                                <a href="https://art-gallery-shop.netlify.app/">
                                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                                         Demo
                                     </button>
                                 </a>
-                                <a href="https://github.com/sali-taymour/art-gallery-shop">
+                                <a href="https://github.com/sali-taymour/art-gallery-shop" >
                                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                                         Code
                                     </button>
@@ -77,7 +80,7 @@ const Work = () => {
                                 Node/Express/API & Vite-React site
                             </span>
                             <div className="pt-8 text-center">
-                                <a href="/">
+                                <a href="https://frontend-vite-st-001.netlify.app">
                                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                                         Demo
                                     </button>
@@ -101,7 +104,7 @@ const Work = () => {
                                 nodemailer
                             </span>
                             <div className="pt-8 text-center">
-                                <a href="/">
+                                <a href="https://st02-react-register-frontend.netlify.app/welcome">
                                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                                         Demo
                                     </button>
