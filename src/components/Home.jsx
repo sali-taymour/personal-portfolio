@@ -11,11 +11,10 @@ const Home = () => {
                     Sali Taymourkhan
                 </h1>
                 <h2 className="text-4xl sm:text-6xl text-palette-6 ">
-                    Im Full Stack Developer
+                    Fullstack Web Developer
                 </h2>
                 <p className="  text-xl text-palette-6 py-4 max-w-[700px] ">
-                    i'm focused on building responsive full-stack web
-                    applications.
+                    auf der Suche nach neuen Herausforderungen
                 </p>
                 <div>
                     <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-palette-8 hover:border-palette-3 ">
