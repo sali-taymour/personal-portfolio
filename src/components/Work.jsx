@@ -80,7 +80,7 @@ const Work = () => {
                                 Node/Express/API & Vite-React site
                             </span>
                             <div className="pt-8 text-center">
-                                <a href="https://frontend-vite-st-001.netlify.app">
+                                <a href="https://search-machine.saly-art.de/">
                                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                                         Demo
                                     </button>
