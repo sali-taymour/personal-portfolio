@@ -24,7 +24,7 @@ const About = () => {
                             Web-Entwicklerin، auf der Suche nach einer
                             spannenden Tätigkeit als Frontend Entwicklerin. Mein
                             Ziel ist es meine Erfahrungen als kundenorientierte
-                            Unternehmerin und neu-gewonnenen IT Kenntnisse
+                            Unternehmerin und neu gewonnene IT Kenntnisse
                             zusammenzuführen، diese gewinnbringend einzusetzen
                             und kreative Webseiten / Benutzer-Applikationen zu
                             erstellen.
