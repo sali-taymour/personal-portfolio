@@ -10,12 +10,13 @@ import GitHub from "../assets/github.png";
  import Tailwind from "../assets/tailwind.png";
 import Mongo from "../assets/mongo.png";
 import cypress from "../assets/cypress.1024x1022.png";
+import E2E from "../assets/eternity.png";
 
 const Skills = () => {
     return (
         <div
             name="skills"
-            className="w-full h-screen bg-[#537f6f] text-gray-700"
+            className="w-full  bg-[#537f6f] text-gray-700"
         >
             {/* Container */}
             <div className="max-w-[1000px] mx-auto p-4 py- flex flex-col justify-center w-full h-full">
@@ -96,10 +97,10 @@ const Skills = () => {
                     <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
                         <img
                             className="w-20 mx-auto"
-                            src={GIT}
+                            src={E2E}
                             alt="HTML icon"
                         />
-                        <p className="my-4">End 2 End Testing</p>n
+                        <p className="my-4">End 2 End Testing</p>
 
                     </div>
                     <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
@@ -108,7 +109,7 @@ const Skills = () => {
                             src={cypress}
                             alt="HTML icon"
                         />
-                        <p className="my-4">Cypress</p>n
+                        <p className="my-4">Cypress</p>
 
                     </div>
                     <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
